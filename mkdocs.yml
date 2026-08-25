@@ -1,0 +1,19 @@
+site_name: MC-Andes Technical Documentation
+site_description: Reproducible technical documentation for computational mechanics
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+nav:
+  - Inicio: index.md
+  - Primeros pasos: getting-started.md
+  - Contribuir: contributing.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+strict: true
